@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="660dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/src"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="94dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="52dp"
+        android:text="account"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="136dp"
+        android:text=" PICK-UP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="136dp"
+        android:text=" DELIVERY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="684dp"
+        android:text="About us"
+        android:textColor="#0C0C0C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="684dp"
+        android:text="All Rights Reserved"
+        android:textColor="#070707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="46dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="684dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="680dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="67dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/red" />
+
+    <ScrollView
+        android:layout_width="403dp"
+        android:layout_height="456dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/hori"
+                android:layout_width="match_parent"
+                android:layout_height="171dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="600dp"
+                        android:layout_height="187dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/tableRow18"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp">
+
+                            <TextView
+                                android:id="@+id/textView72"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="511dp"
+                                android:text="Salad"
+                                android:textColor="#121111"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView71"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="404dp"
+                                android:text="Mayi"
+                                android:textColor="#0E0E0E"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/tableRow19"
+                                android:layout_width="600dp"
+                                android:layout_height="73dp"
+                                android:layout_marginTop="54dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <Button
+                                    android:id="@+id/button77"
+                                    android:layout_width="95dp"
+                                    android:layout_height="65dp"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginEnd="462dp"
+                                    android:background="@drawable/cake"
+                                    android:text="Cookie"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <Button
+                                    android:id="@+id/button76"
+                                    android:layout_width="95dp"
+                                    android:layout_height="65dp"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginEnd="348dp"
+                                    android:background="@drawable/pancakes"
+                                    android:text="Bakery"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </TableLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/hori1"
+                android:layout_width="match_parent"
+                android:layout_height="118dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="600dp"
+                        android:layout_height="106dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/tableRow20"
+                            android:layout_width="600dp"
+                            android:layout_height="109dp">
+
+                            <TextView
+                                android:id="@+id/textView77"
+                                android:layout_width="48dp"
+                                android:layout_height="18dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="391dp"
+                                android:text="Mustard"
+                                android:textColor="#070707"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView75"
+                                android:layout_width="36dp"
+                                android:layout_height="21dp"
+                                android:layout_marginTop="14dp"
+                                android:layout_marginEnd="496dp"
+                                android:text="Asian"
+                                android:textColor="#0C0C0C"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/tableRow21"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                tools:layout_editor_absoluteY="109dp">
+
+                                <Button
+                                    android:id="@+id/button79"
+                                    android:layout_width="95dp"
+                                    android:layout_height="65dp"
+                                    android:layout_marginTop="42dp"
+                                    android:layout_marginEnd="352dp"
+                                    android:background="@drawable/chocolate"
+                                    android:text="Chocolate"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <Button
+                                    android:id="@+id/button78"
+                                    android:layout_width="95dp"
+                                    android:layout_height="65dp"
+                                    android:layout_marginTop="42dp"
+                                    android:layout_marginEnd="460dp"
+                                    android:background="@drawable/sushi"
+                                    android:text="Bushma"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/hori3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button75"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button74"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button73"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button72"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button62"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button63"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/hori4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button69"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button68"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button67"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button66"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button65"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+
+                            <Button
+                                android:id="@+id/button64"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button70"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button71"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Button" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

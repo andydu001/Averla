@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="605dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/ho"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="600dp"
+                        android:layout_height="match_parent">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/tableRow"
+                            android:layout_width="680dp"
+                            android:layout_height="196dp"
+                            tools:layout_editor_absoluteX="3dp">
+
+                            <RatingBar
+                                android:id="@+id/ratingBar2"
+                                style="@style/Widget.AppCompat.RatingBar"
+                                android:layout_width="241dp"
+                                android:layout_height="55dp"
+                                android:layout_marginTop="124dp"
+                                android:layout_marginEnd="184dp"
+                                android:rotation="-6"
+                                android:rotationX="-308"
+                                android:rotationY="3"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <Button
+                                android:id="@+id/button13"
+                                android:layout_width="169dp"
+                                android:layout_height="105dp"
+                                android:layout_marginTop="28dp"
+                                android:layout_marginEnd="16dp"
+                                android:background="@color/material_dynamic_neutral_variant99"
+                                android:text="Bon bouyon lakay ak bwa"
+                                android:textAllCaps="true"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <Button
+                                android:id="@+id/button10"
+                                android:layout_width="154dp"
+                                android:layout_height="118dp"
+                                android:layout_marginTop="19dp"
+                                android:layout_marginEnd="205dp"
+                                android:background="@drawable/breakfast"
+                                android:text="Mayi"
+                                android:textColor="@color/white"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="182dp"
+                                android:layout_height="39dp"
+                                android:layout_marginTop="52dp"
+                                android:layout_marginEnd="402dp"
+                                android:fontFamily="@font/spartan"
+                                android:text="Fish Kraze Avek Sause  4 pcs for $3"
+                                android:textColor="#050505"
+                                android:textSize="16sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <View
+                                android:id="@+id/divider7"
+                                android:layout_width="598dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="179dp"
+                                android:layout_marginEnd="1dp"
+                                android:background="?android:attr/listDivider"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView66"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="124dp"
+                                android:layout_marginEnd="548dp"
+                                android:text="$3"
+                                android:textColor="#070707"
+                                android:textSize="16sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="664dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp">
+
+                    <RatingBar
+                        android:id="@+id/ratingBar3"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="241dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="131dp"
+                        android:layout_marginEnd="1dp"
+                        android:rotation="-6"
+                        android:rotationX="-308"
+                        android:rotationY="3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="156dp"
+                        android:layout_height="123dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="11dp"
+                        android:background="@drawable/merchan"
+                        android:text="Gwo Bege"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="220dp"
+                        android:layout_height="101dp"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginEnd="176dp"
+                        android:fontFamily="@font/spartan"
+                        android:text="Manje Bege Saa Li Gou anpil 2 pou $5. Anpil moun majel."
+                        android:textColor="#050505"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/divider6"
+                        android:layout_width="404dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="187dp"
+                        android:layout_marginEnd="1dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="146dp"
+                        android:layout_marginEnd="359dp"
+                        android:text="$5"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/button18"
+                        android:layout_width="132dp"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="114dp"
+                        android:layout_marginEnd="73dp"
+                        android:background="@color/white"
+                        android:text="sa moun renmenl"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/tableRow3"
+                    android:layout_width="432dp"
+                    android:layout_height="289dp">
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="156dp"
+                        android:layout_height="141dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/spareribs575310640"
+                        android:text="Bon Babekwou"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="165dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="232dp"
+                        android:fontFamily="@font/spartan"
+                        android:text="Koyo. Babekwou saa fe anpil felisite. Kreye na Jacmel, Hayiti an 2014"
+                        android:textColor="#070707"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="241dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="141dp"
+                        android:layout_marginEnd="4dp"
+                        android:rotation="-6"
+                        android:rotationX="-308"
+                        android:rotationY="3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="133dp"
+                        android:layout_marginEnd="345dp"
+                        android:text="$10"
+                        android:textColor="#070707"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/divider9"
+                        android:layout_width="407dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="207dp"
+                        android:layout_marginEnd="1dp"
+                        android:background="?android:attr/listDivider"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="21dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/card60"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="52dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="191dp"
+        android:fontFamily="sans-serif"
+        android:text="Details "
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="406dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/cake"
+        android:text="Cake"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="154dp"
+        android:fontFamily="@font/spartan"
+        android:text="Melona Restaurant"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="256dp"
+        android:text="Pick Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="92dp"
+        android:text="Delivery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="126dp"
+        android:fontFamily="@font/spartan"
+        android:text="Nou ouve a tout le. 7 jou sou 7 nan Mayami"
+        android:textColor="#050505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="2dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="19dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/cart148964640"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
