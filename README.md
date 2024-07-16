@@ -14,7 +14,9 @@ Step 1
 ![Design](image.png)
 
 Step 2
+
 ![Design](image1.png)
 
 Step 3
+
 ![Design](image2.png)
