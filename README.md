@@ -9,3 +9,4 @@ Multiple Payment Options: Users can pay for their orders using credit/debit card
 Order History: Users can view their past orders and reorder their favorite meals with ease.
 Ratings and Reviews: Users can rate and review restaurants and dishes to help other users make informed decisions.
 ![Design](image.png)
+![Design](image1.png)
