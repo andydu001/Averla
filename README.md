@@ -10,6 +10,7 @@ Order History: Users can view their past orders and reorder their favorite meals
 Ratings and Reviews: Users can rate and review restaurants and dishes to help other users make informed decisions.
 
 Step 1
+
 ![Design](image.png)
 
 Step 2
