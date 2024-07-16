@@ -8,4 +8,4 @@ Real-Time Tracking: Users can track their order status in real-time, from prepar
 Multiple Payment Options: Users can pay for their orders using credit/debit cards, digital wallets, or cash on delivery.
 Order History: Users can view their past orders and reorder their favorite meals with ease.
 Ratings and Reviews: Users can rate and review restaurants and dishes to help other users make informed decisions.
-![Design](https://github.com/andydu001/Averla/blob/main/image.png)
+![Design](image.png)
