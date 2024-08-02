@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:scrollbarAlwaysDrawHorizontalTrack="false"
     android:scrollbarAlwaysDrawVerticalTrack="false"
     tools:context=".MainActivity">
@@ -19,11 +20,13 @@
 
     <SearchView
         android:id="@+id/src"
-        android:layout_width="349dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="332dp"
+        android:layout_height="42dp"
         android:layout_marginTop="84dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="42dp"
+        android:backgroundTint="@color/white"
+        android:backgroundTintMode="screen"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -39,11 +42,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="91dp"
+        android:layout_height="49dp"
         android:layout_marginStart="176dp"
         android:layout_marginTop="136dp"
-        android:text=" PICK-UP"
+        android:text="pick-up"
+        android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,7 +57,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="276dp"
         android:layout_marginTop="136dp"
-        android:text=" DELIVERY"
+        android:text="delivery"
+        android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -110,10 +115,11 @@
         app:srcCompat="@drawable/red" />
 
     <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="403dp"
-        android:layout_height="456dp"
-        android:layout_marginTop="197dp"
-        android:layout_marginEnd="11dp"
+        android:layout_height="438dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -139,62 +145,55 @@
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/tableRow18"
                             android:layout_width="match_parent"
-                            android:layout_height="130dp">
+                            android:layout_height="148dp">
 
-                            <TextView
-                                android:id="@+id/textView72"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="511dp"
-                                android:text="Salad"
-                                android:textColor="#121111"
+                            <Button
+                                android:id="@+id/button76"
+                                android:layout_width="245dp"
+                                android:layout_height="83dp"
+                                android:layout_marginTop="75dp"
+                                android:layout_marginEnd="55dp"
+                                android:background="@drawable/pancakes"
+                                android:text="Bakery"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
-                            <TextView
-                                android:id="@+id/textView71"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="404dp"
-                                android:text="Mayi"
-                                android:textColor="#0E0E0E"
+                            <Button
+                                android:id="@+id/button77"
+                                android:layout_width="220dp"
+                                android:layout_height="83dp"
+                                android:layout_marginTop="76dp"
+                                android:layout_marginEnd="337dp"
+                                android:background="@drawable/cake"
+                                android:text="Cookie"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <androidx.constraintlayout.widget.ConstraintLayout
                                 android:id="@+id/tableRow19"
                                 android:layout_width="600dp"
-                                android:layout_height="73dp"
-                                android:layout_marginTop="54dp"
+                                android:layout_height="90dp"
+                                android:layout_marginTop="72dp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintTop_toTopOf="parent">
 
-                                <Button
-                                    android:id="@+id/button77"
-                                    android:layout_width="95dp"
-                                    android:layout_height="65dp"
-                                    android:layout_marginTop="4dp"
-                                    android:layout_marginEnd="462dp"
-                                    android:background="@drawable/cake"
-                                    android:text="Cookie"
-                                    android:textAllCaps="false"
-                                    android:textColor="@color/white"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-                                <Button
-                                    android:id="@+id/button76"
-                                    android:layout_width="95dp"
-                                    android:layout_height="65dp"
-                                    android:layout_marginTop="4dp"
-                                    android:layout_marginEnd="348dp"
-                                    android:background="@drawable/pancakes"
-                                    android:text="Bakery"
-                                    android:textAllCaps="false"
-                                    android:textColor="@color/white"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            <TextView
+                                android:id="@+id/textView72"
+                                android:layout_width="130dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="37dp"
+                                android:layout_marginEnd="403dp"
+                                android:text="Most like"
+                                android:textColor="#121111"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                     </TableLayout>
@@ -222,17 +221,6 @@
                             android:layout_height="109dp">
 
                             <TextView
-                                android:id="@+id/textView77"
-                                android:layout_width="48dp"
-                                android:layout_height="18dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="391dp"
-                                android:text="Mustard"
-                                android:textColor="#070707"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <TextView
                                 android:id="@+id/textView75"
                                 android:layout_width="36dp"
                                 android:layout_height="21dp"
@@ -251,10 +239,10 @@
 
                                 <Button
                                     android:id="@+id/button79"
-                                    android:layout_width="95dp"
-                                    android:layout_height="65dp"
-                                    android:layout_marginTop="42dp"
-                                    android:layout_marginEnd="352dp"
+                                    android:layout_width="245dp"
+                                    android:layout_height="72dp"
+                                    android:layout_marginTop="35dp"
+                                    android:layout_marginEnd="60dp"
                                     android:background="@drawable/chocolate"
                                     android:text="Chocolate"
                                     android:textAllCaps="false"
@@ -264,14 +252,25 @@
 
                                 <Button
                                     android:id="@+id/button78"
-                                    android:layout_width="95dp"
-                                    android:layout_height="65dp"
-                                    android:layout_marginTop="42dp"
-                                    android:layout_marginEnd="460dp"
+                                    android:layout_width="218dp"
+                                    android:layout_height="74dp"
+                                    android:layout_marginTop="33dp"
+                                    android:layout_marginEnd="341dp"
                                     android:background="@drawable/sushi"
                                     android:text="Bushma"
                                     android:textAllCaps="false"
                                     android:textColor="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/textView77"
+                                    android:layout_width="48dp"
+                                    android:layout_height="18dp"
+                                    android:layout_marginTop="19dp"
+                                    android:layout_marginEnd="218dp"
+                                    android:text="Mustard"
+                                    android:textColor="#070707"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -361,7 +360,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TableLayout
                         android:layout_width="match_parent"
@@ -369,7 +368,7 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
+                            android:layout_height="match_parent">
 
                             <Button
                                 android:id="@+id/button69"
@@ -410,7 +409,7 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
+                            android:layout_height="match_parent">
 
                             <Button
                                 android:id="@+id/button70"
@@ -421,7 +420,7 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
+                            android:layout_height="match_parent">
 
                             <Button
                                 android:id="@+id/button71"
@@ -438,5 +437,17 @@
             </HorizontalScrollView>
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="279dp"
+        android:background="@color/white"
+        android:text="screen search"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
