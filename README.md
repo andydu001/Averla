@@ -15,8 +15,20 @@ Step 1
 
 Step 2
 
-![Design](image1.png)
+![Design](image9.png)
 
 Step 3
 
 ![Design](image2.png)
+
+Step 4
+
+![Design](image3.png)
+
+Step 5
+
+![Design](image4.png)
+
+Step 6
+
+![Design](image5.png)
